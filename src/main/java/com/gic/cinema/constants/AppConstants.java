@@ -1,0 +1,41 @@
+package com.gic.cinema.constants;
+
+public class AppConstants {
+    public static final int MAX_ROWS = 26;
+    public static final int MAX_SEATS_PER_ROW = 50;
+    public static final int INVALID_VALUE = -1;
+    public static final int INPUT_DATA_LENGTH = 3;
+    public static final String BOOKING_ID_PREFIX = "GIC";
+    public static final int MIN_SEAT_NUMBER_LEN = 3;
+    public static final String APP_EXIT_MESSAGE = "Thank you for using GIC Cinemas system. Bye!";
+    public static final String INVALID_CHOICE_MESSAGE = "Invalid choice. Please try again.";
+    public static final String STARTUP_MESSAGE = "Please define movie and seating map in [Title] [Row] [SeatsPerRow] format:";
+    public static final String CHECK_BOOKING_MESSAGE = "Enter booking id,  or enter blank to go back to main menu";
+    public static final String BOOKING_NOT_FOUND_ERROR = "Booking Id not found. Please try again!";
+    public static final String INVALID_NUMBER_OF_TICKETS = "Invalid number of tickets.";
+    public static final String SORRY_MESSAGE = "Sorry, there are only ";
+    public static final String SEATS_AVAILABLE = " seats available.";
+    public static final String BOOKING_FAILED = "Sorry, booking failed. Seats may no longer be available.";
+    public static final String SEAT_SELECTION_RETRY_MESSAGE = "Enter blank to accept seat selection, or enter new seating position:";
+    public static final String BOOKING_ID = "Booking Id: ";
+    public static final String CONFIRMATION_MESSAGE = " confirmed.";
+    public static final String INCORRECT_SEATNUMBER_FORMAT = "Invalid input format.Please enter a valid format (e.g., A05)  or enter blank to exit.";
+    public static final String NO_SEATS_MESSAGE = "Invalid Input. No seats available";
+    public static final String INCORRECT_INPUT_FORMAT = "Invalid input format.Please try again  or enter 0 to exit.";
+    public static final String EMPTY_MOVIE_TITLE_ERROR = "Movie Title cannot be null or empty. Please try again  or enter 0 to exit.";
+    public static final String INVALID_ROW_NUMBER_INPUT = "Invalid Row value. Value should be between 1-26. Please try again  or enter 0 to exit.";
+    public static final String INVALID_SEATS_PER_ROW_INPUT = "Invalid Seats per row value. Value should be between 1-50. Please try again  or enter 0 to exit.";
+    public static final String INVALID_SEAT_ROW_SELECTION = "Invalid seat selection, row selection needs to be between A and ";
+    public static final String INVALID_SEAT_NUMBER_SELECTION = "Invalid seat selection, seat number needs to be between 1 and ";
+    public static final String SEAT_ALREADY_BOOKED_ERROR_MESSAGE = "Invalid seat selection, seat is already booked";
+    public static final String SUCCESSFUL_RESERVATION_MESSAGE = "Successfully reserved ";
+    public static final String CHAR_FORMAT = "%-3c";
+    public static final String NUMBER_FORMAT = "%-3d";
+    public static final String SELECTED_SEATS = "Selected seats:";
+    public static final String WELCOME_MESSAGE = "Welcome to GIC Cinemas";
+    public static final String USER_CHOICE_1 = "[1] Book tickets for ";
+    public static final String USER_CHOICE_2 = "[2] Check Bookings";
+    public static final String USER_CHOICE_3 = "[3] Exit";
+    public static final String USER_CONFIRMATION = "Please enter your selection:";
+    public static final String SEATS_AVAILABLE_MESSAGE = " seats available";
+}
